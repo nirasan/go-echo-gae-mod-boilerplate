@@ -1,4 +1,4 @@
-module github.com/nirasan/echo-gae-mod-boilerplate
+module github.com/nirasan/go-echo-gae-mod-boilerplate
 
 go 1.12
 
