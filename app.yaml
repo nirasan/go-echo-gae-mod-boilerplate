@@ -1,0 +1,14 @@
+runtime: go112
+
+handlers:
+  - url: /favicon.ico
+    mime_type: image/x-icon
+    static_files: public/favicon.ico
+    upload: public/favicon.ico
+
+  - url: /public
+    static_dir: /public
+
+  - url: /.*
+    secure: always
+    script: auto
